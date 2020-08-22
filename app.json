@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/welcome/index",
+    "pages/index/index",
+    "pages/wallpaper/wallpaper",
+    "pages/wallpaper/color/color",
+    "pages/result/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#69C3AA",
+    "navigationBarTitleText": "舔狗日记生成器",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "文案",
+                "iconPath": "/img/wa.png",
+                "selectedIconPath":  "/img/wa1.png"
+            },
+            {
+                "pagePath": "pages/wallpaper/wallpaper",
+                "text": "朋友圈",
+                "iconPath":  "/img/pyq.png",
+                "selectedIconPath":  "/img/pyq1.png"
+            }
+        ],
+        "color": "#323232",
+        "backgroundColor": "#69C3AA",
+        "selectedColor": "#d81e06"
+    },
+  "groupIdList":["2931424924","1103118846"],
+  "navigateToMiniProgramAppIdList": ["1110494457"],
+  "sitemapLocation": "sitemap.json"
+}
