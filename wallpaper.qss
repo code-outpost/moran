@@ -1,0 +1,64 @@
+.canvasBox {
+  display: flex;
+  font-size: 12px;
+}
+.myCanvas {
+  border: 1px solid #F5F5F5;
+  margin-left: 10%;
+  margin-right: 10px;
+}
+.bgDIV {
+  width: 40rpx;
+  height: 40rpx;
+}
+.toolList {
+  display: flex;
+  margin-top: 20px;
+  padding-bottom: 2px;
+  border-bottom: 1px dashed;
+}
+.btn {
+  display: flex;
+}
+.previewBtn {
+  width: 50%;
+  padding: 10rpx;
+  color: white;
+  background-color: #DFDCE3;
+  margin: 30rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.saveBtn {
+  width: 50%;
+  padding: 10rpx;
+  color: white;
+  background-color: #58B4AB;
+  margin: 30rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+.inputBox {
+  box-sizing: border-box;
+  border: 1px solid #F5F5F5;
+  width: 90%;
+  height: 100px;
+  margin-left: 5%;
+  padding: 5px;
+  font-size: 14px;
+}
+.imgBox {
+  display: flex;
+  margin: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px dashed;
+}
+.userinfo-avatar {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+}
+.userinfo-name {
+  line-height: 54px;
+  margin-left: 10px; 
+}
